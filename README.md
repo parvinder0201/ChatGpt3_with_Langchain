@@ -18,6 +18,45 @@ To get started with this project, follow these steps:
 4. **Add your text documents**: Place the text, csv and pdf documents you want the chatbot to use in the `knowledge` directory.
 5. **Run the project**: Start the chatbot by running `Custom_Knowledge_ChatGPT_with_LangChain.ipynb` in your google colab.
 
+## UML
+```mermaid
+sequenceDiagram
+    participant User
+    participant System
+
+    User->>System: Enter API Key
+    User->>System: Upload PDF/PDF URL
+    User->>System: Ask Question
+    User->>System: Submit Call to Action
+
+    System->>System: Blank field Validations
+    System->>System: Convert PDF to Text
+    System->>System: Decompose Text to Chunks (150 word length)
+    System->>System: Check if embeddings file exists
+    System->>System: If file exists, load embeddings and set the fitted attribute to True
+    System->>System: If file doesn't exist, generate embeddings, fit the recommender, save embeddings to file and set fitted attribute to True
+    System->>System: Perform Semantic Search and return Top 5 Chunks with KNN
+    System->>System: Load Open AI prompt
+    System->>System: Embed Top 5 Chunks in Open AI Prompt
+    System->>System: Generate Answer with Davinci
+
+    System-->>User: Return Answer
+```
+
+### Flowchart
+```mermaid
+flowchart TB
+A[Input] --> B[URL]
+A -- Upload File manually --> C[Parse PDF]
+B --> D[Parse PDF] -- Preprocess --> E[Dynamic Text Chunks]
+C -- Preprocess --> E[Dynamic Text Chunks with citation history]
+E --Fit-->F[Generate text embedding with Deep Averaging Network Encoder on each chunk]
+F -- Query --> G[Get Top Results]
+G -- K-Nearest Neighbour --> K[Get Nearest Neighbour - matching citation references]
+K -- Generate Prompt --> H[Generate Answer]
+H -- Output --> I[Output]
+```
+
 ## 🤖 Technologies Used
 
 This project uses the following technologies:
