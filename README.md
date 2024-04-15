@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 2. **Install the necessary packages**: Navigate to the project directory and run `pip install -r requirements.txt` to install all required dependencies.
 3. **Set your OpenAI API key**: Run `export OPENAI_API_KEY=<your-api-key>` to set your OpenAI API key as an environment variable.
 4. **Add your text documents**: Place the text, csv and pdf documents you want the chatbot to use in the `knowledge` directory.
-5. **Run the project**: Start the chatbot by running `python main.py` in your terminal.
+5. **Run the project**: Start the chatbot by running `Custom_Knowledge_ChatGPT_with_LangChain.ipynb` in your google colab.
 
 ## 🤖 Technologies Used
 
