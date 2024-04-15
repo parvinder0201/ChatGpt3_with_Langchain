@@ -6,7 +6,7 @@
 
 Welcome to the ChatGPT Custom Knowledge Chatbot! This project uses the OpenAI GPT-3.5 model to build a chatbot that can answer questions based on a custom knowledge base.
 
-recording.mp4
+https://github.com/parvinder0201/ChatGpt3_with_Langchain/blob/main/recording.mp4
 
 ## 🚀 Getting Started
 
