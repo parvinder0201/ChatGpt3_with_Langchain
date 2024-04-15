@@ -35,16 +35,8 @@ We welcome and appreciate any contributions to improve and expand the project. T
 3. Make your changes.
 4. Submit a pull request with a clear description of your changes.
 
-## 📝 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## 👨‍💻 Author
-
-This project was created by Robin de Koster. You can find me on GitHub at [@robindekoster](https://github.com/robindekoster).
 
 ---
 
-Give this project a ⭐ if you find it useful! Your support is greatly appreciated.
 
 Feel free to reach out with any questions or suggestions, and don't forget to share your own amazing projects using ChatGPT Custom Knowledge Chatbot!
