@@ -1,13 +1,3 @@
-# ChatPDF
-
-Chat with any PDF. 
-
-Easily upload the PDF documents you'd like to chat with. Instant answers. Ask questions, extract information, and summarize documents with AI. Sources included.
-
-Create app like [ChatPDF](https://www.thesamur.ai/chatpdf-alternative) or [PDF.ai](https://pdf.ai/).
-
-https://github.com/parvinder0201/ChatGpt3_with_Langchain/blob/main/a84c2582-447b-4434-ab16-1895ddd55022.mp4
-
 
 <h1 align="center">💻 ChatGPT Custom Knowledge Chatbot</h1>
 <p align="center">
@@ -22,7 +12,7 @@ Welcome to the ChatGPT Custom Knowledge Chatbot! This project uses the OpenAI GP
 
 To get started with this project, follow these steps:
 
-1. **Clone this repository**: Click on the "Code" button and copy the URL. In your terminal, run `git clone https://github.com/robindekoster/chatgpt-custom-knowledge-chatbot.git`.
+1. **Clone this repository**: Click on the "Code" button and copy the URL. In your terminal, run `git clone https://github.com/robindekoster/chatgpt-custom-knowledge-chatbot.git](https://github.com/parvinder0201/ChatGpt3_with_Langchain`.
 2. **Install the necessary packages**: Navigate to the project directory and run `pip install -r requirements.txt` to install all required dependencies.
 3. **Set your OpenAI API key**: Run `export OPENAI_API_KEY=<your-api-key>` to set your OpenAI API key as an environment variable.
 4. **Add your text documents**: Place the text, csv and pdf documents you want the chatbot to use in the `knowledge` directory.
